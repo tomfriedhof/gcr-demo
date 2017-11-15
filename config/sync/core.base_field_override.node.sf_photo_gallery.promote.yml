@@ -1,0 +1,24 @@
+uuid: 3f7e6460-d5e0-4367-9121-5cd6a73966a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sf_photo_gallery
+_core:
+  default_config_hash: iSV9e6wnxcmm5ikmEO7pF7qKWO6RLQOa0F_Oy1kh6yA
+id: node.sf_photo_gallery.promote
+field_name: promote
+entity_type: node
+bundle: sf_photo_gallery
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

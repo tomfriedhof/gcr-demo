@@ -1,0 +1,20 @@
+uuid: e40c87d5-33ce-4108-ace7-fc6f4409a97d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hills
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: hills_local_actions
+theme: hills
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

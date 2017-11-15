@@ -1,0 +1,11 @@
+uuid: 5234e973-c7ff-4277-84c3-8096ddb475d4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6_RBQ_eNREAlff1bR4MTtxfLRzyHjl5xOvb3cp4WeFY
+name: 'Event Category'
+vid: sf_event_type
+description: ''
+hierarchy: 0
+weight: 0

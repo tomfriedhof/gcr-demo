@@ -1,0 +1,21 @@
+uuid: afb088d3-995f-4571-9a98-25cccf376bd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_position_title
+    - node.type.sf_person
+_core:
+  default_config_hash: sww9qIF7AMo0S0x0PV2WeiVewjasZdjAOALS9aJCBU8
+id: node.sf_person.field_sf_position_title
+field_name: field_sf_position_title
+entity_type: node
+bundle: sf_person
+label: 'Position Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

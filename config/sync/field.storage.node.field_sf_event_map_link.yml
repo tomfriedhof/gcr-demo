@@ -1,0 +1,21 @@
+uuid: 789e3e75-3b83-4571-bba7-e67f4a303bb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: b6qw5HO6ey-2KfwvU6w-qGyHT4snHvbNQPK1xno-b_4
+id: node.field_sf_event_map_link
+field_name: field_sf_event_map_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

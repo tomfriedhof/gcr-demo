@@ -1,0 +1,10 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/hills.css : {}
+      css/tabs.css : {}
+  js:
+     js/hills.min.js : {}
+  dependencies:
+    - core/jquery

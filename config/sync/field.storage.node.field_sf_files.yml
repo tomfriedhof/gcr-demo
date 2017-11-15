@@ -1,0 +1,25 @@
+uuid: 74447c9b-dbbf-41e3-abee-b9a4586e4203
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+_core:
+  default_config_hash: wHtr9vkuimNB1vK2n2IlInWaunJSmEik96GahS7FUPI
+id: node.field_sf_files
+field_name: field_sf_files
+entity_type: node
+type: file
+settings:
+  display_field: true
+  display_default: true
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

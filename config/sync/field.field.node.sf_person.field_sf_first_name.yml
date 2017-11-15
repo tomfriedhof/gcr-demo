@@ -1,0 +1,21 @@
+uuid: e1aa524d-17a0-433a-bc30-b748c98e1b03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_first_name
+    - node.type.sf_person
+_core:
+  default_config_hash: N0NCzqjys3c3oiCIJUS7smsmETeycy6yqJq18x_h8vI
+id: node.sf_person.field_sf_first_name
+field_name: field_sf_first_name
+entity_type: node
+bundle: sf_person
+label: 'First Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

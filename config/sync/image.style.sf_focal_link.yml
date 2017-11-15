@@ -1,0 +1,19 @@
+uuid: cc1816f4-e0f6-462e-809e-6950a13b480e
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 0VmoVmYdzpFNjLrsJpi0_h4X2zrhWVi3snsxK8-ZK1M
+name: sf_focal_link
+label: 'Focal Link'
+effects:
+  sf_focal_link_focal_point_scale_and_crop:
+    uuid: sf_focal_link_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 63
+      height: 63
+      crop_type: focal_point

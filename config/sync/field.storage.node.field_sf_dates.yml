@@ -1,0 +1,22 @@
+uuid: a86bebb3-3512-48cb-8a0e-2e09e079f68b
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+_core:
+  default_config_hash: TTiwOaF1WB2mYPGGxf8GWjzOfrtwSmK5Y7gTQ1vKgco
+id: node.field_sf_dates
+field_name: field_sf_dates
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

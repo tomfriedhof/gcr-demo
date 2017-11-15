@@ -1,0 +1,10 @@
+uuid: 945b238b-1388-492b-8f99-7071d7e2e1c5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TReObHPCwjEW4j5ntgqww5DNeuD2Sj1U3VqabwavSHo
+id: sf_hero_banner
+label: 'Hero Banner'
+revision: 0
+description: 'Add a large banner image with some text and a call to action. This is something appropriate for the home page.'

@@ -1,0 +1,20 @@
+uuid: f8e75121-40b3-4c8e-a9b2-1a73aa587e2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sf_person
+_core:
+  default_config_hash: kOyKYRxdExst9HhcienqkQj63gJrkwfVQIak8SvJ4oI
+id: node.sf_person.title
+field_name: title
+entity_type: node
+bundle: sf_person
+label: 'Display Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
