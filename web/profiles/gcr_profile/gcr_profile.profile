@@ -11,7 +11,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * Allows the profile to alter the site configuration form.
  */
-function sitefarm_subprofile_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
+function gcr_profile_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
   // Fetch Helper services
   /** @var \Drupal\sitefarm_seed\ProfileInstall $helper */
   $helper = \Drupal::service('sitefarm_seed.profile_install');

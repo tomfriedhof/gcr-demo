@@ -1,12 +1,12 @@
-name: SiteFarm Sub-profile
+name: GCR Profile
 type: profile
-description: 'A fast and feature-rich UC Davis Drupal distribution. A sub-profile of SiteFarm Seed'
+description: 'A profile based on the fast and feature-rich UC Davis Drupal distribution. A sub-profile of SiteFarm Seed'
 # version: VERSION
 core: 8.x
 
 # Force the installation of this profile since it is a distribution
 distribution:
-  name: SiteFarm
+  name: GCR
 
 # Base profile
 base profile: sitefarm_seed

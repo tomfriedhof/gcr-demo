@@ -41,14 +41,19 @@
     "drupal-composer/drupal-scaffold": "^2.2",
     "zendframework/zend-stdlib": "~3.0.1",
     "cweagans/composer-patches": "^1.5",
-    "ucdavis/sitefarm_seed": "dev-8.x-1.x"
+    "ucdavis/sitefarm_seed": "dev-8.x-1.x",
+    "drupal/core": "8.4.2"
   },
-  "repositories": {
-    "drupal": {
+  "repositories": [
+    {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/tomfriedhof/sitefarm_seed.git"
     }
-  },
+  ],
   "scripts": {
     "post-install-cmd": [
       "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
