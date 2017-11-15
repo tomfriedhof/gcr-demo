@@ -43,7 +43,9 @@
     "cweagans/composer-patches": "^1.5",
     "ucdavis/sitefarm_seed": "dev-8.x-1.x",
     "drupal/core": "8.4.2",
-    "drupal/devel": "^1.2"
+    "drupal/devel": "^1.2",
+    "drupal/fontawesome": "^1.2",
+    "fortawesome/font-awesome": "~4"
   },
   "repositories": [
     {
@@ -53,6 +55,24 @@
     {
       "type": "vcs",
       "url": "https://github.com/tomfriedhof/sitefarm_seed.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "fortawesome/font-awesome",
+        "version": "v4.7.0",
+        "type": "drupal-library",
+        "extra": {
+          "installer-name": "fontawesome"
+        },
+        "dist": {
+          "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
     }
   ],
   "scripts": {

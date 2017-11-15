@@ -32,12 +32,14 @@ module:
   file: 0
   filter: 0
   focal_point: 0
+  fontawesome: 0
   google_analytics: 0
   help: 0
   history: 0
   honeypot: 0
   image: 0
   kint: 0
+  libraries: 0
   link: 0
   lock_sitefarm_features: 0
   menu_block: 0
