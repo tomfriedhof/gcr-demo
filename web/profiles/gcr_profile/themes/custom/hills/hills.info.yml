@@ -1,0 +1,7 @@
+name: Hail to the Hills
+type: theme
+description: UCLA Default theme
+package: UCLA
+core: 8.x
+libraries:
+  - hills/global-styling

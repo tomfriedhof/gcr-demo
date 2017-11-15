@@ -42,7 +42,8 @@
     "zendframework/zend-stdlib": "~3.0.1",
     "cweagans/composer-patches": "^1.5",
     "ucdavis/sitefarm_seed": "dev-8.x-1.x",
-    "drupal/core": "8.4.2"
+    "drupal/core": "8.4.2",
+    "drupal/devel": "^1.2"
   },
   "repositories": [
     {
