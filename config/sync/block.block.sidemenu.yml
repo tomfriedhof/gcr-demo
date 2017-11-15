@@ -1,0 +1,27 @@
+uuid: 58441cb4-6b60-42bd-9137-883245389d4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-menu
+  module:
+    - menu_block
+  theme:
+    - hills
+id: sidemenu
+theme: hills
+region: sidebar
+weight: 0
+provider: null
+plugin: 'menu_block:side-menu'
+settings:
+  id: 'menu_block:side-menu'
+  label: 'Side Menu'
+  provider: menu_block
+  label_display: visible
+  level: 2
+  depth: 0
+  expand: 1
+  parent: 'side-menu:'
+  suggestion: side_menu
+visibility: {  }

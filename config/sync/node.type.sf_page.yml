@@ -8,6 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
+      - side-menu
     parent: 'main:'
 _core:
   default_config_hash: RVjh5dYn7fPHFKkOy05rcL9HSWJylqjW5SW-DG6ybxc

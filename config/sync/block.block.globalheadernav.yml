@@ -1,0 +1,27 @@
+uuid: 5d3d6569-7ee6-47a9-9b8c-c91b577e0f94
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.global-header-nav
+  module:
+    - menu_block
+  theme:
+    - hills
+id: globalheadernav
+theme: hills
+region: global_header
+weight: 0
+provider: null
+plugin: 'menu_block:global-header-nav'
+settings:
+  id: 'menu_block:global-header-nav'
+  label: 'Global Header Nav'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 0
+  parent: 'global-header-nav:'
+  suggestion: global_header_nav
+visibility: {  }

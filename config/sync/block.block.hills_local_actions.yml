@@ -9,7 +9,7 @@ _core:
 id: hills_local_actions
 theme: hills
 region: content
-weight: -20
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:
